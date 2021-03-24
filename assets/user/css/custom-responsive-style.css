@@ -49,25 +49,25 @@
 	.each-services {
 	    margin-bottom: 40px;
 	}
-	#OurWork h2, #TestimonialsSlider h2 {
+	#OurRecruitment h2, #TestimonialsSlider h2 {
 		font-size: 38px;
 	}
-	#OurWork .grey-box {
+	#OurRecruitment .grey-box {
 		margin-bottom: 30px;
 	}
-	#OurWork .each-work {
-		padding: 0 7px 10px;
-		width: 127px;
+	#OurRecruitment .each-work {
+		padding: 20px;
+		width: 100%;
 		height: 120px;
 	}
-	#OurWork .each-work img {
+	#OurRecruitment .each-work img {
 		width: 100%;
 		height: auto;
 	}
-	#OurBlog h2 {
+	#OurPlanning h2 {
 		font-size: 38px;
 	}
-	#OurBlog {
+	#OurPlanning {
 	    padding: 60px 0;
 	} 
 	.each-block {
@@ -99,41 +99,41 @@
 	.blog-wrap {
 		height: auto;
 	}
-	#OurBlog .each-block {
+	#OurPlanning .each-block {
 		width: 100%;
 	}
-	#OurBlog .blog-wrap::before, #OurBlog .each-block::before {
+	#OurPlanning .blog-wrap::before, #OurPlanning .each-block::before {
 		display: none;
 	}
-	#OurBlog .blog-wrap .blog-intro {
+	#OurPlanning .blog-wrap .blog-intro {
 		width: 75%;
 	}
-	#Testimonials {
+	#JobDescription {
 		padding-bottom: 30px;
 	}
-	#Testimonials span {
+	#JobDescription span {
 		font-size: 50px;
 	}
-	#Testimonials h2 {
+	#JobDescription h2 {
 		font-size: 40px;
 	}
-	#Testimonials .title {
+	#JobDescription .title {
 		width: 70%;
 	}
-	#Testimonials .testi-wrapper {
+	#JobDescription .testi-wrapper {
 		margin-top: 50px;
 	}
-	#Testimonials .testi-wrapper .latest-testimonials {
+	#JobDescription .testi-wrapper .latest-testimonials {
 		margin-right: 0;
 	}
-	#Testimonials .testi-wrapper .each-testi {
+	#JobDescription .testi-wrapper .each-testi {
 		width: 100%;
 	}
-	#Testimonials .testi-wrapper .old-testimonials {
+	#JobDescription .testi-wrapper .old-testimonials {
 		margin: 0 0 30px 0;
 		height: auto;
 	}
-	#Testimonials .each-testi .profile {
+	#JobDescription .each-testi .profile {
 		position: static;
 	}
 	.social-icons li {
@@ -169,10 +169,10 @@
 		right: 16%;
 		opacity: 1;
 	}
-	#OurBlog .each-block::before , #OurBlog .blog-wrap::before {
+	#OurPlanning .each-block::before , #OurPlanning .blog-wrap::before {
 		display: none;
 	}
-	#OurBlog .each-block {
+	#OurPlanning .each-block {
 		width: 100%;
 	}
 	#Services {
@@ -198,11 +198,11 @@
 	    transform: rotate(50deg);
 	    top: 0;
 	}
-	#OurWork h2, #TestimonialsSlider h2, #OurBlog h2 {
+	#OurRecruitment h2, #TestimonialsSlider h2, #OurPlanning h2 {
 		font-size: 38px;
 	}
-	#OurWork .each-work {
-		width: 151px;
+	#OurRecruitment .each-work {
+		width: 100%;
 	}
 	.blog-wrap:before {
 		content: none;
@@ -213,18 +213,18 @@
 	.social-icons li i {
 		font-size: 36px;
 	}
-	#Testimonials .testi-wrapper {
+	#JobDescription .testi-wrapper {
 		margin-top: 60px;
 	}
 	#TestimonialsSlider {
 		font-size: 40px;
 	}
-	#Testimonials .testi-wrapper .latest-testimonials {
+	#JobDescription .testi-wrapper .latest-testimonials {
 		margin-right: 0;
 		width: 100%;
 	}
-	#Testimonials .testi-wrapper .old-testimonials {
-		width: 46%;
+	#JobDescription .testi-wrapper .old-testimonials {
+		width: 100%;
 	}
 } 
 
@@ -236,16 +236,16 @@
 	#Banner h1 {
 		font-size: 60px;
 	}
-	#OurWork .each-work {
-		width: 30.6%;
+	#OurRecruitment .each-work {
+		width: 50%;
 	}
-	#OurBlog .each-block::before {
+	#OurPlanning .each-block::before {
 		right: -53px;
 	}
-	#OurBlog .each-block.two::before {
+	#OurPlanning .each-block.two::before {
 		left: -52px;
 	}
-	#Testimonials .testi-wrapper .each-testi {
-		width: 31%;
+	#JobDescription .testi-wrapper .each-testi {
+		width: 48%;
 	}
 }

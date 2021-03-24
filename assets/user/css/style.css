@@ -259,52 +259,47 @@ body.active .mscroll {
 }
 /* Our Digital services style ends here */
 /* Our work begin */
-#OurWork {
+#OurRecruitment {
   background-color: #414143;
   padding: 60px 0;
 } 
-#OurWork h2 {
+#OurRecruitment h2 {
 	color: #fff;
 	text-align: center;
 	font: 68px/125% 'Futura PT book';
 	margin-bottom: 40px;
 }
-#OurWork .grey-box {
+#OurRecruitment .grey-box {
   background-color: #4f4f4f;
   padding: 20px;
   height: 300px;
   position: relative;
 }
-#OurWork .each-work {
+#OurRecruitment .each-work {
   display: inline-block;
-  width: 30%;
+  width: 46%;
   background-color: #31a38a;
   margin: 1%;
   height: 142px;
   position: relative;
   text-align: center;
 }
-#OurWork .each-work img {
-  position: absolute;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  left: 50%;
-}
-#OurWork .each-work h1 {
+
+#OurRecruitment .each-work h1 {
   color: #FFF;
   position: absolute;
   top: 50%;
-  transform: translate(-50%, -50%);
   left: 50%;
+  transform: translate(-50%, -50%);
 }
-#OurWork .grey-box .sponser {
+#OurRecruitment .grey-box .sponser {
   position: absolute;
   bottom: 30px;
   width: 100%;
   left: 0;
   padding-left: 30px;
 }
-#OurWork .sponser h4 {
+#OurRecruitment .sponser h4 {
   font: 700 20px/125% 'Futura PT book';
   color: #b6b3b3;
   border-top: 2px solid #b6b3b3;
@@ -313,71 +308,71 @@ body.active .mscroll {
 }
 /* Our work end */
 /* Our blog begin */
-#OurBlog {
+#OurPlanning {
 	padding: 60px 0;
 	background-color: #ececec;
 }
-#OurBlog h2 {
+#OurPlanning h2 {
 	color: #000;
 	font: 68px/125% 'Futura PT book';
 	margin-bottom: 20px;
 	text-align: center;
 }
-#OurBlog p {
+#OurPlanning p {
 	color: #000;
 	font: 18px/125% 'Futura PT book';
 	margin-bottom: 20px;
 	text-align: center;
 }
-#OurBlog .blog-wrap {
+#OurPlanning .blog-wrap {
 	position: relative;
 	height: 1200px;
 	margin: 60px 0;
 }
-#OurBlog .each-block {
+#OurPlanning .each-block {
     position: absolute;
     width: 420px;
 }
-#OurBlog .each-block.one {
+#OurPlanning .each-block.one {
     left: 0;
     top: 0;
 }
-#OurBlog .each-block.two {
+#OurPlanning .each-block.two {
     top: 22%;
     right: 0;
 }
-#OurBlog .each-block.three {
+#OurPlanning .each-block.three {
     top: 44%;
     left: 0;
 }
-#OurBlog .each-block.four {
+#OurPlanning .each-block.four {
   top: 66%;
   right: 0;
 }
-#OurBlog .each-block.five {
+#OurPlanning .each-block.five {
   top: 88%;
   left: 0;
 }
-#OurBlog .each-block .icon {
+#OurPlanning .each-block .icon {
   float: left;
   background-color: #e6275c;
   padding: 8px 10px 4px;
   margin-right: 16px;
 }
-#OurBlog .blog-wrap .blog-intro {
+#OurPlanning .blog-wrap .blog-intro {
     float: left;
     width: 80%;
 }
-#OurBlog .blog-wrap .blog-intro h3 {
+#OurPlanning .blog-wrap .blog-intro h3 {
     font: 700 24px/100% 'Futura PT book';
     margin: 0 0 6px;
 }
-#OurBlog .blog-intro p {
+#OurPlanning .blog-intro p {
     text-align: left;
     padding-left: 45px;
     position: relative;
 }
-#OurBlog .blog-intro p:before {
+#OurPlanning .blog-intro p:before {
     content: "";
     width: 36px;
     height: 2px;
@@ -386,7 +381,7 @@ body.active .mscroll {
     left: 0;
     top: 6px;
 }
-#OurBlog .blog-wrap:before {
+#OurPlanning .blog-wrap:before {
     content: "";
     width: 2px;
     height: 100%;
@@ -395,7 +390,7 @@ body.active .mscroll {
     left: 50%;
     transform: translateX(-50%);
 }
-#OurBlog .each-block:before {
+#OurPlanning .each-block:before {
     content: "";
     width: 14px;
     height: 14px;
@@ -406,18 +401,18 @@ body.active .mscroll {
     top: 50%;
     transform: translateY(-50%);
 }
-#OurBlog .each-block.two:before {
+#OurPlanning .each-block.two:before {
     right: auto;
     left: -34%;
 }
-#OurBlog .each-block.four:before {
+#OurPlanning .each-block.four:before {
   right: auto;
   left: -34%;
 }
-#OurBlog .learnmore {
+#OurPlanning .learnmore {
 	text-align: center;
 }
-#OurBlog .learnmore a {
+#OurPlanning .learnmore a {
     background-color: #e6275c;
     color: #fff;
     padding: 20px 30px;
@@ -426,14 +421,14 @@ body.active .mscroll {
     border-radius: 5px;
     width: 240px;
 }
-#OurBlog .learnmore a span {
+#OurPlanning .learnmore a span {
   cursor: pointer;
   display: inline-block;
   position: relative;
   transition: 0.5s;
 }
 
-#OurBlog .learnmore a span:after {
+#OurPlanning .learnmore a span:after {
   content: '\00bb';
   position: absolute;
   opacity: 0;
@@ -442,119 +437,119 @@ body.active .mscroll {
   transition: 0.5s;
 }
 
-#OurBlog .learnmore a:hover span {
+#OurPlanning .learnmore a:hover span {
   padding-right: 25px;
 }
 
-#OurBlog .learnmore a:hover span:after {
+#OurPlanning .learnmore a:hover span:after {
   opacity: 1;
   right: 0;
 }
 /* Our blog end */
-/* Testimonials style begins here */
-#Testimonials {
+/* JobDescription style begins here */
+#JobDescription {
 	padding: 60px 0 90px 0;
 }
-#Testimonials h2 {
+#JobDescription h2 {
 	color: #000;
 	font: 68px/125% 'Futura PT book';
 	margin-bottom: 20px;
 	text-align: center;
 }
-#Testimonials p {
+#JobDescription p {
 	color: #000;
 	font: 18px/125% 'Futura PT book';
 	margin-bottom: 20px;
-	text-align: center;
+	text-align: left  ;
 }
-#Testimonials .testi-wrapper {
+#JobDescription .testi-wrapper {
 	margin-top: 90px;
 }
-#Testimonials .testi-wrapper .each-testi {
+#JobDescription .testi-wrapper .each-testi {
 	display: inline-block;
 	vertical-align: middle;
-	width: 31.8%;
+	width: 48%;
 }
-#Testimonials .testi-wrapper  .latest-testimonials {
+#JobDescription .testi-wrapper  .latest-testimonials {
 	margin-right: 10px;
 }
-#Testimonials .testi-wrapper  .old-testimonials {
+#JobDescription .testi-wrapper  .old-testimonials {
 	background: red;
 	padding: 50px;
 	margin: 0 10px;
 	height: 300px;
 }
-#Testimonials .testi-wrapper  .old-testimonials.no-margin {
+#JobDescription .testi-wrapper  .old-testimonials.no-margin {
 	margin-right: 0;
 }
-#Testimonials .testi-wrapper .old-testimonials {
+#JobDescription .testi-wrapper .old-testimonials {
 	background: url("../images/testimonials-background.jpg") no-repeat bottom center / cover;
 	padding: 30px 50px;
 	margin: 0 10px;
-	height: 300px;
+	height: 600px;
 	position: relative;
 	text-align: center;
 }
-#Testimonials .division {
+#JobDescription .division {
 	margin-bottom: 30px;
 }
-#Testimonials span {
+#JobDescription span {
 	display: inline-block;
 	font: 70px/125% 'Futura PT book';
 	color: #f86b74;
 }
-#Testimonials .title {
+#JobDescription .title {
 	display: inline-block;
 	border-left: 4px solid #89cbbf;
 	padding-left: 20px;
 	margin-left: 15px;
 }
-#Testimonials .title h4 {
+#JobDescription .title h4 {
 	font: 30px/125% 'Futura PT book';
 	color: #000;
 	margin-bottom: 5px;
 }
-#Testimonials .title h6 {
+#JobDescription .title h6 {
 	font: 18px/125% 'Futura PT book';
 	color: #000;
 	margin-bottom: 0;
 }
-#Testimonials .latest-testimonials p {
+#JobDescription .latest-testimonials p {
 	text-align: left;
 	color: #000;
 }
-#Testimonials .each-testi p {
+#JobDescription .each-testi p {
 	color: #fff;
 }
-#Testimonials .each-testi .profile {
+#JobDescription .each-testi .profile {
 	position: absolute;
 	bottom: 30px;
 	width: 100%;
 	left: 0;
 }
-#Testimonials .each-testi .profile img {
+#JobDescription .each-testi .profile img {
 	display: inline-block;
 	vertical-align: middle;
 	width: 60px;
 	height: auto;
 }
-#Testimonials .each-testi .profile .designation {
+#JobDescription .each-testi .profile .designation {
 	display: inline-block;
 	vertical-align: middle;
 	padding-left: 20px
 }
-#Testimonials .each-testi .profile .designation h6 {
+#JobDescription .each-testi .profile .designation h6 {
 	color: #fff;
 	font-size: 16px;
 }
-#Testimonials .each-testi .profile .designation p {
+#JobDescription .each-testi .profile .designation p {
 	color: #fff;
 	margin: 0;
 }
-#Testimonials .testi-wrapper .latest-testimonials p {
+#JobDescription .testi-wrapper .latest-testimonials p {
 	color: #000;
 }
-/* Testimonials style ends here */
+/* JobDescription style ends here */
 /* Footer */
 #Contact {
 	text-align: center;

@@ -1,125 +1,37 @@
-    <!-- ======= Services Section ======= -->
-    <div id="services" class="services-area area-padding">
-      <div class="container">
+<section id="Services">
+    <div class="container">
+        <h2>Our digital services</h2>
         <div class="row">
-          <div class="col-md-12 col-sm-12 col-xs-12">
-            <div class="section-headline services-head text-center">
-              <h2>WHAT WE DO.</h2>
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                <div class="each-services">
+                    <img src="<?php echo base_url() ?>assets/user/images/digital-marketing.jpg" alt="Services">
+                    <h3>Digital Marketing</h3>
+                    <p>At a high level, digital marketing refers to advertising delivered through digital channels
+                        such as search engines, websites, social media, email, and mobile apps. While this term
+                        covers a wide range of marketing activities, all of which are not universally agreed upon,
+                        we’ll focus on the most common types below.</p>
+                </div>
             </div>
-            <p class="text-center" style="padding: 20px 20%;">Customized, flexible approaches to expand or optimize your business. Start with a small or large dedicated team of highly-trained tech-agnostic specialists, with the ability to scale as you grow. Maintain control with the confidence that we follow global security standards.</p>
-          </div>
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                <div class="each-services">
+                    <img src="<?php echo base_url() ?>assets/user/images/web-design.jpg" alt="Services">
+                    <h3>Webdesign &amp; Development</h3>
+                    <p>For businesses today, it’s not just about having a website. It's about having an effective,
+                        multifunctional portal that plays a crucial marketing role. Whether your business is B2B,
+                        B2C or both, your website should spearhead your Demand Acceleration by inviting, informing
+                        and engaging your target audience.</p>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                <div class="each-services">
+                    <img src="<?php echo base_url() ?>assets/user/images/web-hosting.jpg" alt="Services">
+                    <h3>Web Hosting</h3>
+                    <p> Web hosting is a service that allows organizations and individuals to post a website or web
+                        page onto the Internet. A web host, or web hosting service provider, is a business that
+                        provides the technologies and services needed for the website or webpage to be viewed in the
+                        Internet.</p>
+                </div>
+            </div>
         </div>
-        <div class="row text-center">
-          <!-- Start Left services -->
-          <div class="col-md-4 col-sm-4 col-xs-12">
-            <div class="about-move">
-              <div class="services-details">
-                <div class="single-services">
-                  <a class="services-icon">
-                    <i class="fa fa-cloud-upload"></i>
-                  </a>
-                  <h4>CLOUD COMPUTING</h4>
-                  <p>
-                  Cloud computing business solutions allows your company to leverage resources that cloud service providers manage and store in private, secure servers and networks.
-                  </p>
-                </div>
-              </div>
-              <!-- end about-details -->
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-4 col-xs-12">
-            <div class="about-move">
-              <div class="services-details">
-                <div class="single-services">
-                  <a class="services-icon" >
-                    <i class="fa fa-lock"></i>
-                  </a>
-                  <h4>IT SECURITY</h4>
-                  <p>
-                  Be Protected with our security software. From Malware to Ransomware, SPAM mail to Data leak, PCs to mobile phone, we’ve got you covered.                  </p>
-                </div>
-              </div>
-              <!-- end about-details -->
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-4 col-xs-12">
-            <!-- end col-md-4 -->
-            <div class=" about-move">
-              <div class="services-details">
-                <div class="single-services">
-                  <a class="services-icon">
-                    <i class="fa fa-database"></i>
-                  </a>
-                  <h4>BACKUP AND RECOVERY</h4>
-                  <p>
-                  Ever wished you had a backup when disaster occurs? Looking for a lifesaver? Take a look at what we can offer.                  </p>
-                </div>
-              </div>
-              <!-- end about-details -->
-            </div>
-          </div>
-        </div>
-      </div>
-       <div class="container">
-        <div class="row">
-          <div class="col-md-12 col-sm-12 col-xs-12">
-            <div class="section-headline services-head text-center">
-              <h2>IT SUPPORT FOR BUSINESS.</h2>
-            </div>
-          </div>
-        </div>
-        <div class="row text-center">
-          <!-- Start Left services -->
-          <div class="col-md-4 col-sm-4 col-xs-12">
-            <div class="about-move">
-              <div class="services-details">
-                <div class="single-services">
-                  <a class="services-icon">
-                    <i class="fa fa-bullhorn"></i>
-                  </a>
-                  <h4>SUPPORT</h4>
-                  <p>
-                  Our goal is to ensure that our solutions will contribute to your company’s success. You can be confident put more focus on how to run your business
-                  </p>
-                </div>
-              </div>
-              <!-- end about-details -->
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-4 col-xs-12">
-            <div class="about-move">
-              <div class="services-details">
-                <div class="single-services">
-                  <a class="services-icon">
-                    <i class="fa fa-laptop"></i>
-                  </a>
-                  <h4>SERVICES</h4>
-                  <p>
-                  Staying in business means staying connected. Take a look at our on-premise software solutions and choose how you want to stay connected.
-                  </p>
-                </div>
-              </div>
-              <!-- end about-details -->
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-4 col-xs-12">
-            <!-- end col-md-4 -->
-            <div class=" about-move">
-              <div class="services-details">
-                <div class="single-services">
-                  <a class="services-icon" >
-                    <i class="fa fa-mixcloud"></i>
-                  </a>
-                  <h4>SECURITY</h4>
-                  <p>
-                  Cybersecurity is a major concern for all businesses. IT Secure offers this as one of the services in its managed IT offerings. But some businesses also offer it as a separate service.
-                  </p>
-                </div>
-              </div>
-              <!-- end about-details -->
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
-    <!-- End Services Section -->
+</section>
