@@ -1,6 +1,6 @@
 <header>
     <div class="mobile-logo">
-        <a href=""><img src="<?php echo base_url() ?>assets/user/images/ds-logo.png"></a>
+        <a href=""><img src="<?php echo base_url() ?>assets/user/images/icon_logo.png"></a>
     </div>
     <a class="menu-toggle rounded" href="#">
         <i class="fa fa-bars"></i>
